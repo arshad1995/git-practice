@@ -74,7 +74,12 @@ console.log(getrandom(2));*/
 // }
 // add(1, 3);
 
-function numbers(ad, cd) {
-  console.log(ad + cd);
+// function numbers(ad, cd) {
+//   console.log(ad + cd);
+// }
+// numbers(5, 6);
+
+function multiply(a, b) {
+  console.log(a * b);
 }
-numbers(5, 6);
+multiply(2, 8);
