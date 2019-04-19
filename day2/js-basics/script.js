@@ -79,7 +79,30 @@ console.log(getrandom(2));*/
 // }
 // numbers(5, 6);
 
-function multiply(a, b) {
-  console.log(a * b);
+// function multiply(a, b) {
+//   console.log(a * b);
+// }
+// multiply(2, 8);
+// function getgrades(marks) {
+//   switch (marks) {
+//     case marks >= 80:
+//       return "Distinction";
+//       break;
+//     case marks >= 60:
+//       return "First class";
+//       break;
+//     case marks >= 35:
+//       return "Second class";
+//       break;
+//     default:
+//       return "Fail";
+//   }
+// }
+// console.log(getgrades(60));
+function numbers(num) {
+  let i;
+  for (i = 0; i <= num; i++) {
+    console.log("The number is" + " " + i);
+  }
 }
-multiply(2, 8);
+numbers(6);
