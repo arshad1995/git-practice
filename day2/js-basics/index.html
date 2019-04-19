@@ -7,7 +7,29 @@
     <script src="script.js"></script>
     <title>javascript</title>
   </head>
+
   <body>
+    <p></p>
     <h1>js</h1>
+    <p id="demo" style="width:100%;margin:50;background-color:green;"></p>
+
+    <!-- <ul style="width:100%;background-color:green;color:white;">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+     </ul>
+    </p> -->
+
+    <script>
+      function myFunc() {
+        var numbers = ["a", "b", "c", "d"];
+        var new_arr = numbers.map(number => {
+          console.log("number", number);
+
+          // document.getElementById("demo").innerHTML = number;
+        });
+      }
+      myFunc();
+    </script>
   </body>
 </html>

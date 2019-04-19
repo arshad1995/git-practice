@@ -83,27 +83,27 @@ console.log(getrandom(2));*/
 //   console.log(a * b);
 // }
 // multiply(2, 8);
-function getgrades(marks) {
-  console.log("marks", marks);
-  switch (marks) {
-    case 80 >= marks:
-      return "Distinction";
-      break;
-    case 60 >= marks:
-      return "First class";
-      break;
-    case 35 >= marks:
-      return "Second class";
-      break;
-    default:
-      return "Fail";
-  }
-}
-console.log(getgrades(62));
-// function numbers(num) {
-//   let i;
-//   for (i = 0; i <= num; i++) {
-//     console.log("The number is", i);
+// function getgrades(marks) {
+//   console.log("marks", marks);
+//   switch (marks) {
+//     case 80 >= marks:
+//       return "Distinction";
+//       break;
+//     case 60 >= marks:
+//       return "First class";
+//       break;
+//     case 35 >= marks:
+//       return "Second class";
+//       break;
+//     default:
+//       return "Fail";
 //   }
 // }
-// numbers(6);
+// console.log(getgrades(62));
+function numbers(num) {
+  let i;
+  for (i = 0; i <= num; i++) {
+    console.log("The number is", i);
+  }
+}
+numbers(6);
