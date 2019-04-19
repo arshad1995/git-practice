@@ -21,4 +21,4 @@ function numbers(num) {
     console.log("The number is" + " " + i);
   }
 }
-numbers(5);
+numbers(6);
