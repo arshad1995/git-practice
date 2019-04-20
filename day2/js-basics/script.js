@@ -100,10 +100,40 @@ console.log(getrandom(2));*/
 //   }
 // }
 // console.log(getgrades(62));
-function numbers(num) {
-  let i;
-  for (i = 0; i <= num; i++) {
-    console.log("The number is", i);
+// function numbers(num) {
+//   let i;
+//   for (i = 0; i <= num; i++) {
+//     console.log("The number is", i);
+//   }
+// }
+// numbers(6);
+// let car = { type: "fiat", model: "500", color: "white" };
+// function cars() {
+//   console.log(car.model);
+// }
+// cars();
+// let person = {
+//   firstName: "arshad",
+//   lastName: "pasha",
+//   age: 22,
+//   eyeColor: "brown"
+// };
+
+// console.log(
+//   person.firstName +
+//     "" +
+//     "" +
+//     person.lastName +
+//     " is " +
+//     person.age +
+//     " years old."
+// );
+var person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
   }
-}
-numbers(6);
+};
+console.log(person.fullName());
