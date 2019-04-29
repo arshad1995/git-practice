@@ -1,0 +1,103 @@
+.google {
+  width: 29mm;
+  position: relative;
+  bottom: -3px;
+  left: 4cm;
+}
+.sign {
+  background-color: white;
+  margin: 1px 20px 20px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  width: 12cm;
+  height: 11cm;
+}
+.log {
+  font-size: 23px;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  right: 6mm;
+}
+.input {
+  width: 8.1cm;
+  height: 10mm;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  position: relative;
+  bottom: -0.9px;
+  left: 1.9cm;
+}
+.input1 {
+  width: 8.1cm;
+  height: 10mm;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  position: relative;
+  bottom: -0.9px;
+  left: 1.9cm;
+}
+.field {
+  position: relative;
+  bottom: 8px;
+  left: 1.9cm;
+  color: rgb(6, 105, 185);
+  font-size: 13px;
+  font-style: oblique;
+  width: 8cm;
+  height: 10mm;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+}
+
+.email {
+  color: rgb(26, 24, 24);
+  font-size: 13px;
+  color: black;
+  font-style: italic;
+}
+.p1 {
+  color: rgb(53, 124, 216);
+  font-size: 4mm;
+  position: fixed;
+  top: 5.5cm;
+  left: 98px;
+  font-weight: bold;
+}
+.p2 {
+  font-size: 3.8mm;
+  position: fixed;
+  left: 98px;
+  bottom: 8cm;
+  color: rgb(139, 131, 131);
+}
+.p3 {
+  color: rgb(53, 124, 216);
+  font-size: 4mm;
+  position: fixed;
+  left: 98px;
+  font-weight: bold;
+  bottom: 7.5cm;
+}
+.p4 {
+  color: rgb(53, 124, 216);
+  font-size: 4mm;
+  position: fixed;
+  left: 98px;
+  font-weight: bold;
+  bottom: 5.4cm;
+}
+.submit {
+  background-color: #4285f4;
+  color: rgb(245, 244, 248);
+  border-radius: 6px;
+  width: 13%;
+  height: 9mm;
+  font-size: 3.5mm;
+  cursor: pointer;
+  border: 1px solid #4285f4;
+  position: absolute;
+  right: 7cm;
+  top: 9.5cm;
+}

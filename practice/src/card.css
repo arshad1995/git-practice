@@ -1,0 +1,34 @@
+.design {
+  background-color: tomato;
+  position: relative;
+  height: 200%;
+  width: 25%;
+  margin: 30px 90px 20px 20px;
+  padding: 30px 90px 20px 20px;
+  font-size: 30px;
+  color: blanchedalmond;
+  font-style: oblique;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 15px;
+  text-shadow: 2px 2px red;
+}
+img {
+  position: relative;
+  top: 10px;
+  left: 170px;
+  width: 45%;
+  height: 45%;
+}
+.chng {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
