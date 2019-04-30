@@ -1,0 +1,111 @@
+img {
+  width: 100%;
+  height: 100vh;
+  /* position: fixed; */
+}
+.img2 {
+  border-radius: 50%;
+  width: 200px;
+  height: 150px;
+  position: fixed;
+  bottom: 7cm;
+  left: 14cm;
+  transition: width 0.1s, height 0.1s;
+}
+
+.div {
+  position: fixed;
+  bottom: 5cm;
+  left: 14cm;
+  font-style: italic;
+  color: azure;
+  text-shadow: 0.5px 1px black;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  position: fixed;
+  bottom: 2cm;
+  left: 14cm;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  position: fixed;
+  bottom: 2cm;
+  left: 16cm;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  position: fixed;
+  bottom: 2cm;
+  left: 18cm;
+}
+.fa {
+  padding: 8px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 10%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.img2:hover {
+  box-shadow: 0 0 6px 4px rgba(160, 166, 172, 0.5);
+  width: 205px;
+  height: 150px;
+}
+.content {
+  position: fixed;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  word-spacing: 25px;
+}
+.home,
+.about,
+.service,
+.faq,
+.contact {
+  color: white;
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.home:hover .dropdown-content {
+  display: block;
+}
+.search {
+  position: absolute;
+  right: 3cm;
+  top: 1.5mm;
+
+  height: 2px;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 20%;
+  background: #f1f1f1;
+}

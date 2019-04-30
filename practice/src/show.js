@@ -26,7 +26,5 @@ return (
 }
 }
 
-// visible true --> wo dikhana
-// visibler false --> ""
 
 export default Show;
